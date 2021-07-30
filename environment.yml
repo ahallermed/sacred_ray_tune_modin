@@ -5,4 +5,4 @@ dependencies:
   - pip:
       - ray[default, tune]==1.5.0
       - sacred==0.8.2
-      - modin==0.10.0
+      - modin==0.10.1

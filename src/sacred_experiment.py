@@ -6,6 +6,7 @@ import ray
 from sacred import Experiment
 
 inner_experiment = Experiment("inner_experiment")
+# add an observer here if you'd like to
 
 if not ray.is_initialized():
     ray.init(num_cpus=4)
